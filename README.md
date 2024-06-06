@@ -1,3 +1,3 @@
 check website.
-https://app.netlify.com/sites/small-result-calculator/overview 
+https://small-result-calculator.netlify.app/
 
