@@ -3,7 +3,7 @@ function calulateResult() {
   let calculatedPercentage = (userNumber / 750) * 100;
   106;
 
-  alert(calculatedPercentage);
+   console.log(calculatedPercentage);
 
   if (calculatedPercentage >= 80 && calculatedPercentage < 100) {
     // alert("Congrats Your Grade A+")
@@ -46,7 +46,13 @@ function calulateResult() {
       icon: "success",
     });
   } else {
-    alert("please enter a valid input");
+    // alert("please enter a valid input");
+    Swal.fire({
+      icon: "error",
+      title: "Oops...",
+      text: "Something went wrong!",
+      footer: '<a href="#">Why do I have this issue?</a>'
+    });
   }
   // console.log(userNumber)
 }
