@@ -1,18 +1,27 @@
+body{
+
+
+    background-color: rgb(69, 132, 121);
+}
+
+
 h1{
 
-color: darkslategray;
+color: rgb(0, 0, 0);
 font-family: Arial, Helvetica, sans-serif;
+margin: 30px;
 
 }
 
 .Calculater button{
 
-background-color: rgba(117, 117, 218, 0.701);
+background-color: rgb(146, 91, 201);
 
 height: 35px;
 width: 100px;
 border-radius: 5px;
 font-weight: bold;
+border: 1px solid cornflowerblue;
 
 }
 
@@ -22,4 +31,20 @@ font-weight: bold;
     width: 200px;
     height: 30px;
     border-radius: 5px;
+    margin-top: 30px;
+}
+
+.Calculater{
+
+
+    margin: auto;
+    align-items: center;
+    width: 400px;
+text-align: center;
+    align-content: baseline;
+     background-color: rgba(47, 11, 255, 0.285); 
+     height: 300px;   
+
+     margin-top: 100px;
+     border-radius: 20px;
 }
